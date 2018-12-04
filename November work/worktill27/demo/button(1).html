@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>This is begining of bootstrap using heropage</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width" initial-scale="1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+
+
+<h1 >  This is hading h1</h1>
+<h2>  this is heading h2</h2>
+<h3> This is heading h3</h3>
+<h4> This is heading h4</h4>
+<h5 class="display-4">This is heading h5</h5>
+
+<p class="lead">
+	This is the paragraph
+</p>
+<p class="text-monospace">This is monospace paragraph</p>
+
+
+<p class="font-weight-bold">Bold </p>
+<p class="font-weight-normal">Normal</p>
+<p class="font-italic">Italic</p>
+
+<p class="text-uppercase">Upper Case</p>
+<p class="text-lowercase">Lower Case</p>
+<p class="text-capitalize">Capitalize</p>
+<div class="text-truncate">
+		Lets start with company</div>
+<blockquote class="blockquote text-right">
+	<p>This is JSMPJ Corporation.India's largest software development compnay</p>
+	<footer class="blockquote-footer">
+		<cite title="Source Title"> Source Title</cite>
+
+		
+	</footer>
+</blockquote>
+
+<h1 class=" d-inline bg-success">Saurav Kumar</h1>
+<h1 class="d-inline bg-success">Saurav Dhiman</h1>
+<h1 class="d-inline bg-success">Saurav Ramgrahiyaa</h1>
+
+
+<!------------------------------------------------Nav Bar------------------------->
+	<div class="container">
+	<nav class="navbar navbar-light navbar-expand-lg bg-success fixed-top ">
+
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#id1">
+		<span class="navbar-toggler-icon"></span>	
+
+		</button>
+		
+
+		
+        <div class="collapse navbar-collapse"  id="id1">
+		
+
+			<ul class="navbar-nav justify-content-end ml-auto">
+
+		<li class="nav-item dropdown">
+
+		<a class="nav-link dropdowntoggle" data-toggle="dropdown" href="#">Home</a>
+       <div class="dropdown-menu">
+       	<a href="#" class="dropdown-item">Link 1</a>
+       	<a href="#" class="dropdown-item">Link 2</a>
+       	<a href="#" class="dropdown-item">Link 3</a>
+       </div>
+
+		</li>
+
+		<li class="nav-item dropdown">
+			<a href="#" class="nav-link dropdowntoggle" data-toggle="dropdown">About</a>
+		     <div class="dropdown-menu">
+		     	<a href="#" class="dropdown-item">Link 1</a>
+		     	<a href="#" class="dropdown-item">Link 2</a>
+		     	<a href="#" class="dropdown-item">Link 3</a>
+		     </div>
+		</li>
+
+		<li class="nav-item dropdown">
+		<a class="nav-link dropdowntoggle" data-toggle="dropdown">Contacts</a>
+		<div class="dropdown-menu">
+		<a href="#" class="dropdown-item">Link 1</a>
+		<a href="#" class="dropdown-item">Link 2</a>
+		<a href="#" class="dropdown-item">Link 3</a>	
+		</div>
+		</li>
+
+		<li class="nav-item dropdown">
+		<a class="nav-link dropdown" data-toggle="dropdown">Team</a>
+		<div class="dropdown-menu">
+			<a href="#" class="dropdown-item">Link 1</a>
+			<a href="#" class="dropdown-item">Link 2</a>
+			<a href="#" class="dropdown-item">Link 3</a>
+		</div>
+		</li>
+
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown" data-toggle="dropdown">BOD</a>
+			<div class="dropdown-menu">
+				<a href="#" class="dropdown-item">Link 1</a>
+				<a href="#" class="dropdown-item">Link 2</a>
+				<a href="#" class="dropdown-item">Link 3</a>
+			</div>
+
+		</li>
+		</ul>
+	
+	<form class="form-inline">
+		<input type="text" class="form-control" placeholder="Search">
+		<button class="btn btn-outline-dark text-light mr-2">Search</button>
+	</form>
+
+</nav>
+</div>
+
+
+<nav class="navbar sticky-top navbar-dark bg-dark">
+	<a href="#" class="navbar-brand">Navbar sticky top</a>
+</nav>
+
+
+
+
+ <button type="button" class="btn btn-primary btn btn-outline-danger"> Primary</button>
+<button type="button" class="btn btn-secondary ">Secondary</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-danger disabled">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-dark">Dark</button>
+<button type="button" class="btn btn-link">Link</button>
+<button type="button" class="btn btn-light">Light</button>
+
+<button type="button" class="btn btn-primary btn-block">Block</button>
+<button type="button" class="btn btn-danger  btn-lg "><i class="fas fa-user-tie"></i>Large Button</button>
+<button type="button" class="btn btn-primary" data-toggle="button">Toggler</button>
+<input type="button" class="btn btn-success btn btn-sm" value="submit">
+
+<a href="#" role="button">Link</a>
+
+<div class="btn-group">
+<button type="button" class="btn btn-primary">Left Button</button>
+<button type="button" class="btn btn-secondary">Middle Button</button>
+<button type="button" class="btn btn-primary">Right Button</button>
+</div>
+
+<div class="btn btn-toolbar">
+	<div class="btn btn-group"> 
+	<button type="button" class="btn btn-primary btn-lg">Button 1</button>	
+	<button type="button" class="btn btn-seconadry btn-lg">Button 2</button>
+	<button type="button" class="btn btn-dark btn-lg">Button 3</button>
+	</div>
+
+	<div class="btn-group-vertical">
+		<button type="button" class="btn btn-primary btn-lg">Button 4</button>
+		<button type="button" class="btn btn-dark btn-lg">Button 5</button>
+		<button type="button" class="btn btn-primary btn-lg">Button 6</button>
+	</div>
+</div>
+
+---------------------------Drop Down-----------------------
+<div class="dropdown">
+	<button class="btn btn-primary" type="button">My Dropdown</button>
+	<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"></button>
+	<div class="dropdown-menu">
+		<a class="dropdown-item" href="#">Link 1</a>
+		<a class="dropdown-item" href="#">Link 2</a>
+		<a class="dropdown-item" href="#">Link 3</a>
+		<div class="dropdown-divider"></div>
+		<a class="dropdown-item" href="#">Link 4</a>
+		<a class="dropdown-item" href="#">Link 5</a>
+	</div>
+</div>
+
+
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
+ 
+
+<!------------------------------------------------Nav Bar------------------------->
+<nav class="navbar navbar-expand-lg navbar-primary">
+	<div class="container">
+		<ul class="navbar-nav">
+		<a class="navbar-barnd" href="#">Navbar</a>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Home</a>
+		</li>
+
+		<li class="nav-item" href="#">
+			<a class="nav-link" href="#">About</a>
+		</li>
+
+		<li class="nav-item" href="#">
+			<a class="nav-link" href="#">Contacts</a>
+				<li class="nav-item" href="">
+			<a class="nav-link" href="#">Team</a>
+		</li>
+		</ul>
+	
+	</div>
+
+</nav>
+
+
+<nav class="navbar fixed-bottom navbar-dark bg-dark">
+	<a href="#" class="navbar-brand">Navbar Sticky vbottom</a>
+</nav>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="#">Hidden brand</a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<ul class="list-group">
+	<li class="list-group-item-secondary"> Saurav </li>
+      <li class="list-group-item-primary"> Kumar</li>
+      <li class="list-group-item text-danger"> Dhiman</li>
+      <li class="list-group-item text-success"> Ramgarhiyaa</li>
+</ul>
+<!------------------This is all about forms start----------------------------->
+
+<form>
+	<div class="form-group">
+		<label class="text-danger" for="Name"> Name</label>
+		<input class="form-control" type="text" id="Name" placeholder="Name">
+	</div>
+	<div class="form-group">
+		<label class="text-success" for="Email">Email</label>
+		<input class="form-control" type="Email btn-outline-success" id="Email" placeholder="Enter Email">
+	</div>
+	<div class="form-group">
+		<label class="text-warning" for="password">Password</label>
+		<input class="form-control" type="password" id="password" placeholder="Enter Password">
+	</div>
+<!--     -->
+<div class="form-group">
+	<label for="gender">Gender</label>
+    <select class="form-control" id="gender">
+    <option >Male</option>
+    <option >Female</option>
+    </select>
+
+</div>
+<div class="form-group">
+	<label for="message">Message</label>
+	<textarea class="form-control" id="message" rows="3"></textarea>
+</div>
+
+<div class="custom-file">
+	<input class="custom-file-input" type="file" id="myfile">
+	<label class="custom-file-label"  for="myfile">choosefile</label>
+	</div>
+
+
+	<div class="form-group">
+		<label for="membership">Membership Label</label>
+		<input class="custom-range" min="1" max="10" step="1" value="1" type="range">
+
+	</div>
+</form>
+
+	<form class="form-inline">
+		<input class="form-control" type="text" placeholder="Enter User Name">
+        <input class="form-control" type="password" placeholder="Enter Password">
+        <div class="form-check">
+        	<label class="form-check-label">
+        		<input type="checkbox" class="form-check-input">Check Me
+        	</label>
+        </div>
+	<button class="btn btn-danger btn-block" type="submit">Submit</button>
+</form>
+
+
+
+
+
+<form>
+	 <div class="form-row">
+	 	<div class="col">
+	 		<input type="text" class="form-control is-invalid" placeholder="Enter Name">
+       <div class="invalid-feedback">
+       	
+       	Invalid Feedback
+       </div>
+	 	</div>
+	 	<div class="col">
+	 		<input type="password" class="form-control" placeholder="Password">
+	 	</div>
+
+	 </div>
+
+</form>
+<!------------------------------Responsive Images---------------------------->
+<div class="container">
+	<div class="row">
+		<div class="col">
+			<p class="display-4">My heading</p>
+            <p>Take Safari with you—learn anywhere, anytime on your phone or tablet. Don’t wait! Download the app today and:</p>
+
+		</div>
+	    <div class="col">
+	    	<p>Content b1 <img src="1.jpg" class="img-fluid"> </p>
+
+	    </div>	
+	</div>
+
+	<div class="row">
+		<div class="col">
+			
+			<p>Content b1 <img src="1.jpg" class="img-fluid img-thumbnail float-sm-right"> </p>
+		</div>
+	    <div class="col">
+	    	
+
+			<p>Content b3 <img src="1.jpg" class="img-fluid rounded"> </p>
+		</div>
+	    </div>	
+	</div>
+
+
+</div>
+
+<!------------------------------form using gris ends------------------------> 
+
+
+
+<!---Jumbotrons------------------------------------------------------->
+<div class="container">
+	<div class="jumbotron">
+		<div class="h1">Heading</div>
+		<p class="lead">
+			Take Safari with you—learn anywhere, anytime on your phone or tablet. Don’t wait! Download the app today and:
+
+		</p>	
+         <hr class="my-5">
+         		<p class="lead">
+			Take <span class="badge badge-danger">Safari </span>with you—learn anywhere, anytime on your phone or tablet. Don’t wait! Download the app today and:
+
+		</p>
+
+		<hr class="my-1">	
+		</div>
+
+	</div>
+
+</div>
+
+<!---------------------check boxes------->
+<div class="btn-group btn-group-vertical" data-toggle="buttons">
+	<label class="btn btn-primary">
+		<input type="checkbox">Conditon 1
+	</label>
+
+	<label class="btn btn-secondary">
+        <input type="checkbox"> Conditon 2
+            </label>
+       <label class="btn btn-danger">
+       	<input type="checkbox">Condition 3
+       </label>
+</div>
+
+
+<div class="btn-group" data-toggle="buttons">
+	<label class="btn btn-primary">
+    <input type="radio" name="radio1" id="radio1">Male
+</label>
+<label class="btn btn-primary">
+	<input type="radio" name="radio1" id="radio2">female
+</label>
+
+<label class="btn btn-primary">
+	<input type="radio" name="radio1" id="radio3">others
+</label>
+
+
+
+</div>
+<!----------------------------checkbox ends---------------->
+
+<!---------------------------list starts---------------->
+<ul class="list-group"> 
+
+	<li class="list-group-item-primary list-group-item-action text-truncate">Onexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc</li>
+	<li class="list-group-item-secondary list-group-item-action">Two</li>
+	<li class="list-group-item-danger list-group-item-action">Three</li>
+</ul>
+
+
+
+<!----------------------------list ends---------------->
+<div class="container">
+	<div class="row">
+		<div style="border:2px solid red;border-style: dotted;" class="col-sm-3 col-md-3 col-lg-4 mr-auto">
+		<h1>This is Saurav Kumar 1</h1>
+		<p>Engineer Saurav Kumar 1</p>	
+		</div>
+		<div style="border:2px solid green;border-style: dotted;"  class="col-sm-4 col-md-5 col-lg-3 mr-auto">
+		<h1>This is Saurav Kumar 2</h1>
+		<p>Engineer Saurav Kumar 2</p>		
+		</div>
+		<div style="border:2px solid red;border-style: dotted;"  class="col-sm-3 col-md-3 col-lg-4 mr-auto">
+					<h1>This is Saurav Kumar 3</h1>
+		<p>Engineer Saurav Kumar 3</p>		
+		<div style="border:2px solid red;border-style: dotted;"  class="col-sm-3 col-md-3 col-lg-4 mr-auto">
+		<h1>This is Saurav Kumar 4</h1>
+		<p>Engineer Saurav Kumar 4</p>
+		</div>
+
+
+
+
+
+
+	</div>
+</div>
+
+
+<div class="container">
+	
+<div class="row">
+			<div style="border:2px solid red;border-style: dotted;" class="col order-3">
+		<h1>This is Saurav Kumar 1</h1>
+		<p>Engineer Saurav Kumar 1</p>	
+		</div>
+		<div style="border:2px solid green;border-style: dotted;"  class="col order-1">
+		<h1>This is Saurav Kumar 2</h1>
+		<p>Engineer Saurav Kumar 2</p>		
+		</div>
+		<div style="border:2px solid red;border-style: dotted;"  class="col order-4">
+					<h1>This is Saurav Kumar 3</h1>
+		<p>Engineer Saurav Kumar 3</p>	</div>
+		<div style="border:2px solid red;border-style: dotted;"  class="col order-2">
+		<h1>This is Saurav Kumar 4</h1>
+		<p>Engineer Saurav Kumar 4</p>
+		</div>
+</div>
+
+</div>
+
+<!-----------------------------------Rows with in rows------------------------>
+
+
+<div class="container">
+
+	<div class="row">
+
+		<div style="border:2px red;border-style: dotted;" class="col-sm-8">title
+        <div class="row">
+        	<div style="border:2px red;border-style: dotted;" class="col">50%</div>
+        	<div style="border:2px red;border-style: dotted;" class="col">50</div>
+        </div>
+    </div>
+        	<div style="border:2px red;border-style: dotted;" class="col">Sub Menu</div>
+	</div>
+
+</div>
+
+<!-------------------------progress barr----------------------------------->
+
+<br>
+
+<div class="progress">
+	<div class="progress-bar bg-danger progress-bar-striped progress-bar-animated w-100" role="progressbar" style="height:100px;">50%</div>
+</div>
+<!-------------------------------------inline block----------------------------------->
+
+<div class="bg-danger w-25 text-success d-inline-block text-center">JSMPJ </div>
+<div class="bg-success w-25 text-danger d-inline-block text-left">JSMPJ </div>
+<div class="bg-info w-25 text-white d-inline-block text-right">JSMPJ </div>
+<div class="bg-success w-25 text-white d-inline-block">JSMPJ </div>
+
+<div class="bg-success w-25 text-white">JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ</div> 
+<hr>
+<div class="bg-success w-25 text-white text-nowrap">JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ</div> 
+</div>
+
+<div class="bg-success w-25 text-white text-justify">JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ JSMPJ</div> 
+
+
+<!---------------------------------------Bootstrap tables-------------------------->
+<table class="table table-striped table-inverse table-bordered table-hover table-responsive">
+	<thead class="thead-default bg-success"><tr>
+	<th>Rank</th>	
+	<th>First Name</th>
+	<th>Last Name</th>
+	</tr></thead>
+<tbody>
+	<tr>
+	<td>1</td>
+	<td>Saurav</td>
+	<td>Kumar</td>	
+	</tr>
+ <tr class="table-success">
+ 	<td>2</td>
+ 	<td>Ana</td>
+ 	<td>Kumari</td>
+ </tr>
+ <tr>
+ 	<td>3</td>
+ 	<td>Karthik</td>
+ 	<td>Karnti</td>
+ </tr>
+</tbody>
+
+</table>
+
+<!-------------------------------------------Bootstrap card-------------->
+<div class="card w-25 m-3">
+	<img src="1.jpg" class="img-fluid img-thumbnail">
+	<div class="card-block">
+		<div class="card-title h3">Title</div>
+		<div class="card-text">Hello World</div>
+	</div>
+</div>
+<!--------------------------------Card in blocks ------------------------------------>
+<div class="container">
+	<div class="row">
+		<div class="col">
+<div class="card">
+	<div class="card-header h2">Header</div>
+    <div class="card-block">
+    	<div class="card-title">Title</div>
+    	<div class="card-text">
+    		<p>This is saurav kumar. Working as assistant engineeer in Maropost India Pvt Ltd</p>
+    		<a href="#" class="btn btn-primary">Click</a>
+    </div>
+    <div class="card-footer">Footer</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--------------------------------Card in block ends -------------------------------->
+
+
+<!------------------------Form Gridss ----------------------------------------------->
+<div class="container">
+	<form>
+		<div class="form-group row">
+			<label for="First">First </label>
+			<input type="text" class="form-control" id="first">
+			<div class="col-sm-10">
+					<label for="First">First </label>
+					<input type="text" class="form-control" id="first">
+
+
+			</div>
+		</div>
+		<div class="input-group">
+		<input type="text" id="first" class="form-control">
+			</div>
+				  
+
+	</form>
+</div>
+<!----------------------Form Gridss ends--------------------------------------------->
+<!--------------------------------Add on classes starts------------------------------>
+
+<div class="container">
+	<form>
+		<div class="form-group row">
+			<label for="First" class="col-sm-2">First </label>
+			
+			<div class="col-sm-10">
+				<input type="text" class="form-control" id="first">
+			</div>
+		</div>
+
+
+		<div class="form-group row">
+              <label for="first1" class="col-sm-2">First1</label>
+              <div class="col-sm-10">
+              	<input type="text" id="first1" class="form-control">
+              </div>
+			</div>
+			
+   <div class="input-group">
+   	<div class="input-group-prepend">
+	<span class="input-group-text">Button</span>
+	<input type="text" id="first1" class="form-control">
+</div>
+</div>
+	</form>
+</div>
+
+<!--------------------------------Add on classes Ends------------------------------>
+
+<!-------------------------Select group------------------------------------------------>
+<form>
+	<select class="custom-select">
+	<optin selected>Option Menu</optin>
+	<option value="1"> One </option>
+	<option value="2">Two </option>
+	<optionvalue="3">Three</optgroup>
+	</select>
+
+</form>
+
+<!-------------------------Select Group Ends------------------------------------------->
+
+
+<!-------------------------bootstrap alerts strarst---------------------------------->
+<div class="alert alert-success">
+	<p>Welcome  to my page</p>
+</div>
+<div class="alert alert-primary alert-dismissible">
+	<button type="button" class="close" data-dismiss="alert">
+	<span>JSMPJ</span>
+	</button>
+	<p>Welcome  to my page</p>
+</div>
+
+<div class="alert alert-secondary">
+	<p>Welcome  to my page</p>
+</div>
+
+<div class="alert alert-danger">
+	<p>Welcome  to my page</p>
+</div>
+
+
+<!-------------------------b s alert Ends------------------------------------------->
+
+<!---------------tool tip---------------------------------------------------------->
+
+<button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="left" title="JSMPJ Corporation"> Tooltip show hello world</button>
+
+<div class="container-fluid">
+
+<button class="btn btn-primary" data-toggle="popover" data-placement="bottom" data-content="JSMPJ Corporation"> Tooltip show hello world
+</button>
+
+</div>
+<!--------------------------------------------------------------------------------->
+<!---------------------Crousel Slidersss 1------->
+<div class="container">
+	<div class="row">
+		<div class="col-sm-8 m-auto">
+
+ <div id="slider1" class="carousel slide mb-5" data-ride="carousel">
+ 	<div class="carousel-inner">
+
+<div class="carousel-item active">
+	<img src="01.jpeg" class="d-block img-fluid">
+</div>
+
+<div class="carousel-item">
+	<img src="02.jpeg" class="d-block img-fluid">
+</div>
+
+<div class="carousel-item">
+	<img src="03.jpeg" class="d-block img-fluid">
+</div>
+
+<div class="carousel-item">
+	<img src="04.jpeg" class="d-block img-fluid">
+</div>	
+ </div>
+<a href="#slider1" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+<a href="#slider1" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+ </div>
+</div>
+</div>
+</div>
+
+
+<!---------------------Crousel Slidersss 2------->
+<div class="container">
+	<div class="row">
+		<div class="col-sm-8 m-auto">
+
+ <div id="slider2" class="carousel slide mb-5" data-ride="carousel">
+   <ol class="carousel-indicators">
+   	<li class="active" data-target="#slider2" data-slide-to="0"></li>
+   	   	<li class="active" data-target="#slider2" data-slide-to="1"></li>
+   	   	   	<li class="active" data-target="#slider2" data-slide-to="2"></li>
+   	
+
+   </ol>
+
+
+ 	<div class="carousel-inner">
+
+<div class="carousel-item active">
+	<img src="01.jpeg" class="d-block img-fluid">
+</div>
+
+<div class="carousel-item">
+	<img src="02.jpeg" class="d-block img-fluid">
+</div>
+
+<div class="carousel-item">
+	<img src="03.jpeg" class="d-block img-fluid">
+</div>
+
+<div class="carousel-item">
+	<img src="04.jpeg" class="d-block img-fluid">
+</div>	
+ </div>
+<a href="#slider2" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+<a href="#slider2" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+ </div>
+</div>
+</div>
+</div>
+
+<!---------------------Crousel Slidersss 3------->
+<div class="container">
+	<div class="row">
+		<div class="col-sm-8 m-auto">
+
+ <div id="slider3" class="carousel slide mb-5" data-ride="carousel">
+   <ol class="carousel-indicators">
+   	<li class="active" data-target="#slider3" data-slide-to="0"></li>
+   	   	<li class="active" data-target="#slider3" data-slide-to="1"></li>
+   	   	   	<li class="active" data-target="#slider3" data-slide-to="2"></li>
+   	
+
+   </ol>
+
+
+ 	<div class="carousel-inner">
+
+<div class="carousel-item active">
+	<img src="01.jpeg" class="d-block img-fluid">
+<div class="carousel-caption d-none d-md-block">
+	<h3>Slide 1</h3>
+	<p>JSMPJ Corporation Indias Largest MNC.</p>
+</div>
+
+</div>
+
+<div class="carousel-item">
+	<img src="02.jpeg" class="d-block img-fluid">
+	<div class="carousel-caption d-none d-md-block">
+	<h3>Slide 2</h3>
+	<p>JSMPJ Corporation Indias Largest MNC.</p>
+</div>
+</div>
+
+<div class="carousel-item">
+	<img src="03.jpeg" class="d-block img-fluid">
+	<div class="carousel-caption d-none d-md-block">
+	<h3>Slide 3</h3>
+	<p>JSMPJ Corporation Indias Largest MNC.</p>
+</div>
+</div>
+
+<div class="carousel-item">
+	<img src="04.jpeg" class="d-block img-fluid">
+	<div class="carousel-caption d-none d-md-block">
+	<h3>Slide 4</h3>
+	<p>JSMPJ Corporation Indias Largest MNC.</p>
+</div>
+</div>	
+ </div>
+<a href="#slider3" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+<a href="#slider3" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+ </div>
+</div>
+</div>
+</div>
+
+
+<!------------------------------------------------------------------------------------------------------>
+<div style="margin-top: 1500px;"></div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/jquery/jquery-1.8.3.min.js"></script> 
+<script>
+$('[data-toggle="popover"]').popover();
+
+$('.carousel').carousel({
+interval:3000,
+keyboard:true,
+pause:'hover',
+wrap:true,
+})
+</script>
+</body>
+</html>

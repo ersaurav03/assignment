@@ -1,0 +1,13 @@
+/*@import "body.css"*/
+@import url("body.css");
+p
+{
+color:#fcfcfc;	
+background-color:tomato;
+color:black;
+}
+h3
+{
+color:white;
+background-color:blue;
+}

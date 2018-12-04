@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>This is second Vue JS</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div id="id1">
+	{{message}}
+	<input type="text" v-model="inputText">
+	<button @click="getMessage">Submit</button>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+let obj1=new Vue({
+	el: '#id1',
+	data:
+	{
+	message:null,
+	inputText:null,
+	},
+	methods:{
+		getMessage(){
+			this.message=this.inputText
+			this.inputText=null
+		}
+	}
+});
+</script>
+</body>
+</html>

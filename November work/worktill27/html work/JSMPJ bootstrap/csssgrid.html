@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Grids</title>
+	<style>
+	.wrapper
+	{
+	display: grid;
+	grid-template-columns: 40% 30% 30%;	
+	grid-column-gap:1em;
+	grid-row-gap:1em;
+
+	}
+	 	.wrapper > div
+	 	{
+	 	background: green;
+	 	color:black;
+	 	padding: 1em;
+	 	}
+       .wrapper > div:nth-child(odd)
+       {
+       	background: #ddd;
+       }
+
+	</style>
+</head>
+<body>
+<div class="wrapper">
+
+
+<div>
+    Div1
+	asdasf
+	sdfdasf
+	dfsada
+	Div1
+</div>
+
+
+<div> 
+	Div 2
+	asdgfjDGFJ
+	SVAFH
+	dsagfjk
+	Div 2
+</div>
+
+<div>
+ Div 3
+ hgfJFGDJH
+ DHAGFJKAS
+ ASDFGJHDgv
+ Div3	
+
+</div>
+<div>
+ Div 4
+ hgfJFGDJH
+ DHAGFJKAS
+ ASDFGJHDgv
+ Div4	
+
+</div>
+
+
+</div>
+ </body>
+</html>

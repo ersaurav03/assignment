@@ -1,0 +1,32 @@
+ div.headerr
+ {
+height:123px;
+width:100%;
+background-color:rgba(0,255,0,0.3);
+}
+
+div.sidebarleft
+{
+height:690px;
+background-color:rgba(0,255,0,0.7);
+}
+
+div.middlebar
+{
+	background:url(2.jpg) no-repeat;
+height:690px;
+background-color:rgba(0,255,0,0.4);
+}
+
+div.rightsidebar
+{
+height:690px;
+background-color:rgba(0,255,0,0.7);
+}
+
+div.footers
+{
+height: 123px;
+width: 100%;
+background-color:rgba(0,255,0,0.3);
+}

@@ -1,0 +1,33 @@
+h1
+{
+padding:0;
+margin:0;
+}
+p
+{
+padding: 0;
+margin:0;
+}
+div.hero-bg
+{
+position:relative;
+background-image: url("custom/img/5.jpg");
+height:50%;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+div.hero-text
+{
+position:absolute;
+top:50%;
+left:50%;
+text-align: center;
+transform: translate(-50%,-50%);
+}
+html, body
+{
+margin:0;
+height: 100%;
+}

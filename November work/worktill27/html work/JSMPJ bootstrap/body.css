@@ -1,0 +1,13 @@
+body
+{
+background-image:url("Maropost.jpg");
+background-color:red;
+color:green;
+background-repeat: repeat-x;
+
+}
+h1
+{
+color:blue;
+background-color:white;	
+}

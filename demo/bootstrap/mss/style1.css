@@ -1,0 +1,257 @@
+/*---------------------------------------------------Top Text---------------------------------------------*/
+div.tops
+{
+color:red;
+background-color: rgba(205,20,100,0.3);
+}
+/*------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------*/
+/* This is css starting for upper navigation bar */
+div.navupper
+{
+color:white;
+background-color: rgba(0,0,0,0.3);
+}
+
+/* This is css for upper navigation bar  ends*/
+/*--------------------------------------------------------------------------------------------------------*/
+/* This is css starting for upper navigation bar */
+div.navlower
+{
+color: white;
+background-color: rgba(0,0,0,0.3);
+}
+/* This is css for upper navigation bar Ends*/
+/*--------------------------------------------------------------------------------------------------------*/
+
+/* This is css for meadia quaries starts for background change */
+h2,h3,h4,h5,h6
+{
+text-align: center;
+}
+h1
+{
+text-shadow: 3px 2px blue;
+color: rgba(0,0,0,0.7);
+}
+body
+{
+background-image:url("../images/photo.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+@media screen and (min-width:576px)
+{
+body
+{
+background-image:url("../images/photo1.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+}
+@media screen and (min-width:768px)
+{
+body
+{
+background-image:url("../images/photo2.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+}
+@media screen and (min-width: 992px)
+{
+body
+{
+background-image: url("../images/photo3.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+}
+@media screen and (min-width: 1200px)
+{
+body
+{
+background-image: url("../images/photo4.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+}
+/* This is css for meadia quaries ends for background change */
+/*-------------------------------------------------------------------------------------------------------*/
+/* This is css for hero header starts */
+body , html
+{
+height: 100%;
+}
+h1 , p
+{
+/*color:rgba(255,255,0,1.0);*/
+margin: 0;
+padding:0;
+}
+h3
+{
+color:rgba(255,255,0,1.0);
+margin: 0;
+padding:0;
+}
+div.hero-bg
+{
+position: relative;
+height: 50%;
+background-image: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,255,0.7)), url("../images/photo5.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+div.hero-text
+{
+
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+}
+
+/* This is css for hero headder ends */
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*----------------------------------------------Design of 4 divs starts-------------------------------------------------*/
+div.designn
+{
+
+background-color: rgba(255,255,255,0.7);
+border-style: none;
+}
+
+/*----------------------------------------------Design of 4 divs Ends-------------------------------------------------*/
+
+/*----------------------------------------------Design of what we offer starts-----------------------------------------*/
+div.wwoffer
+{
+background-color: rgba(255,255,255,0.7);
+border-style: none;
+}
+
+/*----------------------------------------------Design of what we offer divs Ends--------------------------------------*/
+
+/*----------------------------------------------Design of Brand entity starts-----------------------------------------*/
+div.branden
+{
+background-color: rgba(255,255,255,0.7);
+border-style: none;
+}
+div.brandensm
+{
+background-color: rgba(255,255,255,0.7);
+border-style: none;
+}
+
+/*----------------------------------------------Design of Brand entitydivs Ends--------------------------------------*/
+/*----------------------------------------------Design of Brand entity starts-----------------------------------------*/
+div.trackrecord
+{
+background-color: rgba(255,255,255,0.7);
+border-style: none;
+}
+div.trackrecords
+{
+background-color: rgba(255,255,255,0.7);
+border-style: none;
+}
+
+/*----------------------------------------------Design of Brand entitydivs Ends--------------------------------------*/
+
+
+/*----------------------------------------------Design of team starts-----------------------------------------*/
+div.crazyteam
+{
+background-color: rgba(255,255,255,0.7);
+border-style: none;
+}
+div.craztm
+{
+background-color: rgba(255,255,255,0.7);
+border-style: none;
+}
+
+/*----------------------------------------------Design of team entity divs Ends--------------------------------------*/
+
+/*----------------------------------------------Design of why we chose starts-----------------------------------------*/
+div.wwchose
+{
+background-color: rgba(255,255,255,0.7);
+border-style: none;
+}
+div.wwchose1
+{
+background-color: rgba(255,255,255,0.7);
+border-style: none;
+}
+
+/*----------------------------------------------Design of team why we choose Ends--------------------------------------*/
+
+/*----------------------------------------------Design of why our customers starts-----------------------------------------*/
+div.ocust
+{
+background-color: rgba(255,255,255,0.7);
+border-style: none;
+}
+div.ocust1
+{
+background-color: rgba(255,255,255,0.7);
+border-style: none;
+}
+
+/*----------------------------------------------Design of why our customers Ends--------------------------------------*/
+
+
+/*----------------------------------------------Design of purchse and like starts-----------------------------------------*/
+div.likess
+{
+background-color: rgba(255,255,255,0.7);
+border-style: none
+}
+div.likess1
+{
+background-color: rgba(255,255,255,0.7);
+border-style: none
+}
+
+/*----------------------------------------------Design of purchase and like Ends--------------------------------------*/
+
+
+/*----------------------------------------------Design of footerup starts-----------------------------------------*/
+div.footerup
+{
+background-color: rgba(255,255,255,0.7);
+border-style: none;
+}
+div.footerup1
+{
+background-color: rgba(255,255,255,0.7);
+border-style: none;
+}
+
+/*----------------------------------------------Design of footerup  Ends--------------------------------------*/
+/*----------------------------------------------Design of footerdown starts-----------------------------------------*/
+div.footerdown
+{
+color: white;
+background-color: rgba(0,0,0,0.1);
+border-style: none;
+}
+div.footerdown1
+{
+color: white;
+background-color: rgba(0,0,0,0.1);
+border-style: none;
+}
+
+/*----------------------------------------------Design of footerdown  Ends--------------------------------------*/

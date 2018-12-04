@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Check alert </title>
+	<script type="text/javascript">
+		<!--
+		function myFunc()
+		{
+		var a=100;
+		var b=0;
+		try
+		{
+	     if(b==0)
+	     {
+	     throw("Divide by zero erro");
+	     }
+	     else
+	     {
+	     var c=a/b;
+	     }
+		}
+		catch(e)
+		{
+		alert("Error :"+e.description);
+		}
+		finally
+		{
+		alert("finally block always execute");
+		}
+	}
+		//-->
+	</script>
+</head>
+<body>
+<form>
+	<input type="button" value="clickMe" onclick="myFunc();">
+</form>
+</body>
+</html>

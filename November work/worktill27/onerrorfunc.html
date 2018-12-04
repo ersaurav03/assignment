@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Thi is use of on error function</title>
+	<script type="text/javascript">
+		<!--
+         window.onerror=function(msg,url,line)
+         {
+         alert("message :"+msg);
+         alert("url :"+url);
+         alert("Line number :"+line);
+         }
+
+       function myFunc()
+       {
+       alert("error ");
+       }
+
+			//-->
+	</script>
+</head>
+<body>
+<p>Click on following button to see the result</p>
+<form>
+	<input type="button" value="clickme" onclick="myFunc();"/>
+</form>
+</body>
+</html>
